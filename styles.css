@@ -6,15 +6,17 @@ body{
 	height: 200px;
 	width: 200px;
 	position: absolute;
-	transform: translate(50%,50%);
+	transform: translate(-50%,-50%);
 	background-color: lightblue;
 	border: 2px black solid;
 	text-align: center;
 	box-sizing: border-box;
 }
 p{
+	color: purple;
 	position: relative;
 	top: 50%;
 	bottom: 50%;
-	transform: translate(0%,-100%)
+	transform: translate(-50%,-50%);
+	text-align: center;
 }
