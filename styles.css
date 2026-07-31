@@ -2,12 +2,13 @@
 body{
 	height: 100%;
 	width: 100%;
-	position: center;
+	position: absolute;
 }
 .box{
 	height: 200px;
 	width: 200px;
-	position: center;
+	position: absolute;
 	background-color: lightblue;
-	border: 2px black;
+	border: 5px black solid;
+	text-align: center;
 }
